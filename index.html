@@ -9,14 +9,686 @@
     <!--Antet start-->
     <p style="position: absolute; top: 0; left: 3em; color: black">
       Eng. Andrei-Mihai Micu, 2023<br />
+      Eng. Botean Cătălin-Cristian<br />
       Facultatea de Automatică și Calculatoare<br />
       Universitatea Politehnică Timișoara, România<br />
-    <!--Antet end-->
+      <!--Antet end-->
     </p>
   </head>
-  <body>
+  <body style="max-width: 100%; overflow-x: hidden">
     <h1 style="text-align: center; position: relative; top: 2em">
-    The Effects of Economical Factors on Climate Change
+      The Effects of Economical Factors on Climate Change
     </h1>
+    <!--Abstract start-->
+    <div style="padding-left: 5em; padding-right: 5em">
+      <section>
+        <h2 style="position: relative; top: 5em; left: 5em">Abstract</h2>
+        <br />
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;The purpose of this paper is to study how the climate has
+          been affected in the last 30 years in Romania and other countries,
+          while taking into account the economic background of each country.
+          Understanding the complex relationship be- tween economic activities
+          and environmental degradation can lead to finding new strategies
+          towards a sustainable future.
+        </p>
+      </section>
+    </div>
+    <!--Abstract end-->
+
+    <!--Introduction start-->
+    <div style="padding-left: 5em; padding-right: 5em">
+      <section>
+        <h2 style="position: relative; top: 5em; left: 5em">I. Introduction</h2>
+        <br />
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;Over the past few decades, the climate has been
+          experiencing significant changes due to human activities, primarily
+          the emission of gases such as carbon dioxide (CO2) into the atmosphere
+          [1]. These changes have led to various environmental repercussions,
+          including rising temperatures, altered precipitation patterns and
+          changes in ecosystems. [1]<br /><br />
+          &emsp;&emsp;In this paper, we try to determine if and how different
+          economic factors influence climate indicators, by observing 12
+          arbitrarily chosen countries: Australia, Brazil, Botswana, China,
+          Democratic Republic of the Congo, Germany, United Kingdom, India,
+          Norway, Niger, Romania and the United States, during the last 30
+          years, namely 1990 - 2020.<br /><br />
+
+          &emsp;&emsp;One of the hypothesises at the core of this paper is that
+          small countries and countries that are still under development are not
+          as pollutant as larger countries or already developed countries.
+          However, although not as pollutant as the other ones, each country
+          would suffer from climate changes, in one or multiple ways, during the
+          established interval of 30 years.<br /><br />
+          &emsp;&emsp;To understand the effects of climate change on the
+          mentioned countries, the following climate indicators have been
+          analyzed: average yearly temperature per country, average yearly
+          precipitation per country, carbon dioxide (CO2) emissions per country,
+          burned area from forest fires, human deforestation and reforestation.
+          The economical indicators studied were population per country, types
+          and prevalence of industries per country, GDP and GDP growth, energy
+          use, fossil fuel use and air transport.
+        </p>
+      </section>
+    </div>
+    <!--Introduction end-->
+
+    <!--Data start-->
+    <div style="padding-left: 5em; padding-right: 5em">
+      <section>
+        <h2 style="position: relative; top: 5em; left: 5em">II. Data</h2>
+        <br />
+        <!--Data acq and meaning start-->
+        <h3 style="position: relative; top: 5em; left: 5em">
+          A. Data Acquisition and Meaning
+        </h3>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;All the data used throughout the elaboration of the paper
+          is public and free of charge.
+        </p>
+        <h4 style="position: relative; top: 5em; left: 5em">
+          1. Temperature and precipitation
+        </h4>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;Temperature and precipitation for each of the studied
+          countries came from the Climate Change Knowledge Portal [2], which
+          provides the users with extensive time series type datasets. The
+          dataset used throughout this research is produced by the Climatic
+          Research Unit (CRU) of the University of East Anglia (UEA). It is
+          derived by the interpolation of monthly climate anomalies from
+          extensive networks of weather station observations. 24 datasets have
+          been accessed through WorldBank, 12 datasets with average yearly
+          temperatures for each country studied and 12 datasets with average
+          yearly precipitations for each country studied. The temperature is
+          measured in degrees Celsius (C) and the precipitations are measured in
+          millimeters of depth of water (mm).<br /><br />
+        </p>
+        <h4 style="position: relative; top: 5em; left: 5em">
+          2. Carbon Dioxide (CO2) emissions
+        </h4>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;A large dataset of (CO2) emissions can be found on the
+          Global Carbon Atlas [3]. The platform, made possible by [4], [5], [6],
+          provides the yearly carbon print for almost all countries in the
+          world. The data is measured in Metric Tonnes of CO2. The original
+          dataset is made up of four main datasets from historical emissions
+          (1750–2019): global and national emission estimates for coal, oil,
+          natural gas, and peat fuel extraction from the Carbon Dioxide
+          Information Analysis Center (CDIAC) for the time period 1750–2017. The
+          data is periodically reviewed by experts in the field. The emissions
+          dataset takes into account energy and cement production segments, as
+          these segments also produce a large amount of emissions themselves.<br /><br />
+        </p>
+        <h4 style="position: relative; top: 5em; left: 5em">3. Burned area</h4>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;With temperatures on the rise, it’s theorized that forest
+          fires would happen more often now compared to 30 years ago. In order
+          to study this theory, a dataset of global monthly burned area [7] is
+          used. The dataset covers burned area for the studied countries during
+          2002-2019. The area of each country is split in cropland, forest,
+          grass and shrubland, wetlands and other burned areas, observed each
+          month since 2002 up to 2019. To make use of this data, the four
+          enumerated categories have been summed in a ”total burned area” by
+          country. The data itself was gathered by the means of MODIS sensors
+          [8] that observe the Earth`s surface every 1 - 2 days.<br /><br />
+        </p>
+        <h4 style="position: relative; top: 5em; left: 5em">
+          4. Forest changes - deforestation and reforestation
+        </h4>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;One of the potential reasons for high temperatures in the
+          studied countries is losing more forest area than gaining, year after
+          year. To study this, we make use of the defor- estation dataset from
+          WorldBank [9], that contains data for 1990 - 2020 time interval,
+          obtained from the Global Forest Resources Assessments. The Global
+          Forest Resources Assessments (FRA) are now produced every five years,
+          based on two primary sources of data: Country Reports prepared by
+          National Correspondents and remote sensing that is conducted by FAO
+          together with national focal points and regional partners. The dataset
+          itself contains a catalog of countries and forest area changes
+          (negative or positive numbers) by year.<br /><br />
+        </p>
+        <h4 style="position: relative; top: 5em; left: 5em">
+          5. Population per country
+        </h4>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;In order to put into perspective how each inhabitant of
+          the studied countries contribute to the emissions produced by the
+          country, we make use of population numbers for 1990 - 2022, taken from
+          another population dataset from WorldBank [10]. The dataset covers 237
+          countries since 1950 up until 2022 and the data is gathered by the
+          Population Division of the Department of Economic and Social Affairs
+          of the United Nations Secretariat.<br /><br />
+        </p>
+        <h4 style="position: relative; top: 5em; left: 5em">
+          6. Economic data
+        </h4>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;For examining key economic factors and understanding
+          global and regional trends, we have used the information received from
+          WorldBank [10] for 1990-2020. The main indicators used are: <br />
+          • GDP growth (annual %): Measures the annual growth rate of a
+          country’s GDP (Gross Domestic Product) over a specific year. <br />
+          • GDP per capita growth (annual %): Represents the GDP divided by the
+          total population of a country.<br />
+          • Forest area (sq. km): Indicates the total area of a country covered
+          by forests in square kilometers.<br />
+          • Rural population (% of total population): Indicates the percentage
+          of a country’s population residing in rural areas.<br />
+          • Urban population (% of total population): Indicates the percentage
+          of a country’s population residing in urban areas. <br />
+          • Energy use (kg of oil equivalent per capita): Represents the amount
+          of energy consumed per capita in kilograms of oil equivalent. <br />
+          • Electric power consumption (kWh per capita): Measures the
+          electricity consumption per capita in kilowatt-hours.<br />
+          • Population in urban agglomerations of more than 1 million (% of
+          total population): Indicates the percentage of a country’s population
+          living in urban agglomerations (cities) with a population of more than
+          1 million.<br />
+          • Industry (% of GDP): Represents the contribution of the industry
+          sector, including manufacturing and construc- tion, to a country’s GDP
+          as a percentage.<br />
+          • Inflation (annual %): Measures the annual inflation rate based on
+          changes in consumer prices.<br />
+          • Imports (% of GDP): Indicates the percentage of imports of goods and
+          services in relation to a country’s GDP.<br />
+          •Agriculture, forestry, and fishing (% of GDP): Repre- sents the
+          contribution of the agriculture, forestry, and fishing to a country’s
+          GDP as a percentage.<br />
+          • Fossil fuel energy consumption (% of total): Indicates the
+          percentage of fossil fuel energy consumed in a country’s total energy
+          consumption.<br /><br />
+        </p>
+        <!--Data acq and meaning end-->
+
+        <!--Data processing and IV start-->
+        <h3 style="position: relative; top: 5em; left: 5em">
+          B. Data Processing and Initial Visualizations
+        </h3>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;All datasets used throughout this research came in tabular
+          form. To analyze the data, we chose to use Python, and, more
+          specifically, using dataframes that can contain the data and make it
+          easily accessible at all times. Therefore, each dataset downloaded had
+          to be transformed into a dataframe, as part of preprocessing the data.
+          This eased telling how the data looked like at a first glance.<br /><br />
+          &emsp;&emsp;For example, the average yearly temperatures, measured in
+          degrees Celsius, for all countries studied can be ex- plored using the
+          dataframe in figure 1. Similarily, the other dataframes contain data
+          regarding precipitations, measured in millimetres of depth of water
+          per year, burned area per year, measured in hectares, forest change
+          per year, measured in hectares and population number per year.<br /><br />
+        </p>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="exampleOfTempsDataInsidePdDf.PNG"
+            alt="Example of temperature data inside a Pandas’s dataframe"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig.1: Example of temperature data inside a Pandas’s dataframe:
+            columns are the year of when the measurement is done and the country
+            codes corresponding to studied countries.<br />
+          </p>
+        </div>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;For the economical data we had missing values of some
+          columns like Electric Power Consumption, Urban Agglomeration or Fuel
+          Exports, for specific countries and years. To address these missing
+          values, we have replaced them using the mean value of each indicator
+          for the corresponding country during the period from 1990 to 2020, in
+          order to maintain consistency and preserve the overall trend of the
+          indicator for the given country. We have also created a Waffle Chart (
+          Fig. 2 ) in order to see how each country contributes to the whole.<br /><br />
+        </p>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="waffleChart.PNG"
+            alt="Waffle Chart which indicates how each country contributes to the whole"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 2: Waffle Chart which indicates how each country contributes to
+            the whole<br />
+          </p>
+        </div>
+        <!--Data processing and IV end-->
+      </section>
+    </div>
+    <!--Data end-->
+
+    <!--Results start-->
+    <div style="padding-left: 5em; padding-right: 5em">
+      <section>
+        <h2 style="position: relative; top: 5em; left: 5em">III. Results</h2>
+        <br />
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;The results obtained during the research are under the
+          form of graphs, charts, overlayed geographical maps and other
+          visualizations. All the results can help describe a clearer picture of
+          the effects of climate change on the studied countries and the
+          relationship between economical factors and climate change
+          indicators.<br /><br />
+        </p>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="peakTempsForRomaniaAndTrendline.PNG"
+            alt="Peak Temperatures For Romania And Trendline "
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 3: Peak Temperatures For Romania And Trendline - Romania has an
+            average temperature of 9 degrees Celsius at the start of 1990, which
+            is a low peak. During the 30 year time span, high temperature peaks
+            occur at almost every 5 years and last high temperature peak
+            observed is 11.7 degrees.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="AvgTempRomVsOthers.PNG"
+            alt="Average Temperature For Romania VS Studied Coun-
+            tries Average"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 4: Average Temperature For Romania VS Studied Coun- tries
+            Average - Romania’s temperature on average repre- sented as an area
+            compared to the other countries average temperature. The observable
+            difference between Romania and the other countries is an approximate
+            5 degrees Celsius.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="romHeatmap.PNG"
+            alt="Romania Heatmap 2020 By County"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 5: Romania Heatmap 2020 By County - Visual repre- sentation of
+            temperatures and counties of Romania mapped over Romania’s
+            administrative map. The counties are color coded to match the
+            temperatures measured: the lighter the color, the cooler the county
+            and the more intense the color, the warmer the county.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="PrecipRomVsOthers.PNG"
+            alt="Precipitation for Romania vs Average Precipitation of Studied Countries"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 6: Precipitation for Romania vs Average Precipitation of
+            Studied Countries 1990 - 2020 - Romania has an average of 650
+            millimeters depth of water per year, while the other countries
+            average 880 mm per year.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="EmissionsRomVsOthers.PNG"
+            alt=" Average Emissions For Romania VS Studied Countries"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 7: Average Emissions For Romania VS Studied Countries. Romania,
+            blue, starts with 200 Mt CO2 emissions in 1990 and slowly decreases
+            to 120 Mt CO2 in 2020. The average emissions for other countries
+            start from 900 Mt CO2 in 1990 and increase to above 1600 Mt CO2 by
+            2020.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="EmissionsPerCapitainOthers.PNG"
+            alt="  Emissions per Capita In Studied Countries Over Time"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 8: Emissions per Capita In Studied Countries Over Time - Graph
+            comparing Romania, USA and China by taking into account the amount
+            of emissions, measured in grams of CO2 per year compared to
+            population number in the countries.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="peakEmissionsRomTrendline.PNG"
+            alt=" Peak Emissions For Romania And Trendline"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 9: Peak Emissions For Romania And Trendline - Evolution of
+            emissions, measured in metric tonnes of CO2, for Romania, by
+            observing average yearly emissions.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="waffleChartEmissions.PNG"
+            alt=" Waffle Distribution for Total Emissions"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 10: Waffle Distribution for Total Emissions - 1990 - 2020 - All
+            countries studied occupy one or more than one square, depending on
+            how much quantity of Mt CO2 the country generated in total over the
+            30 years time span. Some countries are not shown in the graph
+            because these countries do not produce enough CO2.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="BurnedAreaYearRom.PNG"
+            alt="Burned Area by Year and Season in Hectares"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 11: Burned Area by Year and Season in Hectares - Visualization
+            of area burned each year in Romania, with values ranging from no
+            burnt areas (white) to heavily burned areas (red).<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="BurnedAreaSeasonRom.PNG"
+            alt="Burned Area for Romania by Season"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 12: Burned Area for Romania by Season 2002 - 2019 - Pie chart
+            showing burnt area by season, using percentages, taking into account
+            all burnt area over the 30 years time interval, for Romania.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="forestChangeandDef.PNG"
+            alt="Forest Change For Studied Countries"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 13: Forest Change For Studied Countries (Reforestation vs.
+            Deforestation) - Area graph showing amount of forest suffering from
+            deforestation (orange) and reforestation (blue). The area for the
+            graph is measured in millions of hectares.<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="airTransportUsage.PNG"
+            alt="Air Transport Usage By Country"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 14: Air Transport Usage By Country - Horizontal bar chart that
+            shows the amount of air transport for each country<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="waffleChartElectric.PNG"
+            alt="Waffle Distribution for Electric Power Consumption"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 15: Waffle Distribution for Electric Power Consumption
+            1990-2020 - indicates the total electrical power consumption by
+            country for the 30 years studied.<br />
+          </p>
+        </div>
+      </section>
+    </div>
+    <!--Results end-->
+
+    <!--Concluzii start-->
+    <div style="padding-left: 5em; padding-right: 5em">
+      <section>
+        <h2 style="position: relative; top: 5em; left: 5em">
+          IV. Discussion and Conclusions
+        </h2>
+        <br />
+        <h3 style="position: relative; top: 5em; left: 5em">
+          A. Discussing the results obtained
+        </h3>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;Starting the discussion with analysing the temperature
+          changes, Fig. 3 and Fig. 4, it can be observed that the temperatures,
+          on average, both in Romania and in other countries, have increased
+          significantly. If the average temperature in 1990 was approximately
+          9.5 and 16 degrees Celsius for Romania and the average of the other
+          studied countries respectively, by 2020 the new temperatures have
+          increased with 1.5 degrees Celsius for Romania and 0.6 degrees Celsius
+          for the other countries on average.<br /><br />
+          &emsp;&emsp;Observing the peak highs and peak lows for the average
+          temperatures recorded in Romania over the last 30 years, Fig. 3, we
+          can tell that after 2010 there are no low peaks in temperature to be
+          found. This phenomenon, together with the steady increase in
+          temperatures, could potentially continue past 2020.<br /><br />
+          &emsp;&emsp;Romania’s Heatmap in Fig. 5 paints a clear picture of
+          which are the most affected counties by the increase in temperature.
+          The South and the South East of Romania have an yearly average of 12 -
+          13 degrees Celsius, in 2020, while the Center of the country,
+          surrounded by mountains, has, in certain parts, almost half that (8
+          degrees).<br /><br />
+          &emsp;&emsp;Precipitations, on average, have lower values for Romania
+          than when compared to the rest of the countries studied, Fig. 6, by at
+          least 230 mm per year. Although not included, the precipitations
+          increased over the years in Romania. The difference between 1990 and
+          2020 is not as significant as the temperature difference, but there
+          exists a 50 mm difference in measured precipitations.<br /><br />
+          &emsp;&emsp;By observing the emissions produced by Romania and the
+          other studied countries, it can be assessed that past 1990, emissions
+          started a slow decrease for Romania, but did the opposite for the
+          other countries. Fig. 7 shows Romania going from 200 MtCO2 in 1990 to
+          close to 100 MtCO2 in 2020. On the other hand, the other countries
+          average emissions increased from 900 MtCO2 to over 1600 MtCO2. Based
+          on this, we can approximate that Romania, when compared to the other
+          studied countries, emits 16 times less CO2. This decrease inCO2
+          emissions can be clearly observed in Fig. 9, with the latest high peak
+          in producing CO2 happening towards 2018 and the peak being 80 Mt
+          CO2.<br /><br />
+          &emsp;&emsp;After analyzing the emissions produced while taking into
+          account the population number of some select countries, namely
+          Romania, USA and China, it can be observed that Romanians emit the
+          least CO2 per capita, while Americans emit at least 3 times as much,
+          but their emissions are on a descending trendline for the past 15
+          years. China, however, can be seen doing the exact opposite, starting
+          their increase in emissions around the same time Americans started
+          their decrease, Fig. 8. By computing the total CO2 emissions of the
+          studied countries, Fig. 10, it can be observed that USA and China
+          combined make up at least 75% of the emissions produced during 1990 -
+          2020.<br /><br />
+          &emsp;&emsp;The burned area dataset could give some insight into how
+          the rise in temperatures during the years affects spontaneous fires,
+          which could lead to large portions of burnt area. However, the data
+          visualizations do not support this claim, Fig. 11, with burned area
+          reaching a maximum, for Romania, in 2007 - 2008, with a summer that
+          burned almost 450000 hectares. After 2008, the burned area decreases
+          year after year.<br /><br />
+        </p>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="dependencyAirTransportandEmission.PNG"
+            alt="Dependency between the Air Transport and CO2 emissions"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 16: Dependency between the Air Transport and CO2 emissions for
+            each country in the 1990-2020<br />
+          </p>
+        </div>
+        <div style="position: relative; top: 3.5em">
+          <img
+            src="dependencyFuelandEmission.PNG"
+            alt=" Dependency between the Fossil Fuel Energy Consumed and CO2 emissions"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <p style="text-align: center">
+            Fig. 17: Dependency between the Fossil Fuel Energy Consumed and CO2
+            emissions for each country in the 1990-2020<br />
+          </p>
+        </div>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;Although a correlation between higher temperatures and
+          larger burned area cannot be established, it is certain that the
+          summers are the highest contributors to burned area. Almost 60% of
+          total burnt area, summed over a time span of 17 years observed in
+          Romania, has happened during summer, Fig. 12.<br /><br />
+          &emsp;&emsp;Deforestation is on the rise and this phenomenon can be
+          observed in Fig. 13 as well. Even before 1990, the rates of
+          deforestation, or the rate of forest area becoming smaller by the
+          year, has been disproportionate to the frequency of reforestation. For
+          Romania, the rate of deforestation is not larger than the
+          reforestation, but when observing the overall situation for all
+          countries in this study, it can be assessed that the reforestation
+          area, measured in millions of hectares, is at least twice as small
+          compared to deforestation, which trends to increase in the future.<br /><br />
+          &emsp;&emsp;In Fig 14. there can be observed the air transport for
+          each country, which is very important because, as shown in the Fig.
+          16, there is a strong correlation between the usage of air transport
+          and the level of CO2 emissions. As it can be observed, from the
+          horizontal bar chart, USA and China have the biggest impact on the
+          airplane traffic. Although not shown in the paper, even if we consider
+          the airplane transport per population, these two countries are on the
+          top of this list. Moreover, there was a decline in the air transport
+          for 2020, which might be due to it being the year when the COVID
+          pandemic has started.<br /><br />
+          &emsp;&emsp;In Fig 15. we can see how much electric power each country
+          consumes. Surprisingly, Norway and Australia are very high on this
+          list having almost 50% on this distribution, despite not having a huge
+          population.<br /><br />
+          &emsp;&emsp;Analysing the dependency between air transport and the
+          consumption of fossil fuel energy, Fig. 15 and Fig. 16, it can clearly
+          be observed that there is a strong connection between the amount of
+          usage of airplanes over the years for all the countries and the CO2
+          emissions. In the second plot, we can observe the obvious exponential
+          dependency between the consumption of energy based on fossil fuel and
+          the carbon dioxide emissions.<br /><br />
+        </p>
+        <h3 style="position: relative; top: 5em; left: 5em">
+          B. Comparing with the state-of-the-art
+        </h3>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;In one of the studies related to climate change research
+          for Romania, done in 2019, Elena Mateescu identifies year 2018 as
+          hottest year in the last 30 years and computes the temperature
+          difference between 2018 and 1988 to be 1.58 degrees Celsius [11]. This
+          is in accordance with the peaks and temperature differences found in
+          our research as well, therefore giving the temperature dataset used
+          throughout this research more integrity and further supporting the
+          validity of the claims of this paper. The author warns that if the
+          trend continues, we can expect to see a 5 to 6 degrees Celsius
+          difference starting 2071 (referencing the 1971 baseline).<br /><br />
+          &emsp;&emsp;In another study from 2021, authors have similar results
+          when comparing our researched CO2 emissions with their researched CO2
+          emissions. Besides the similarity in results, the authors make use of
+          regression models to forecast how the emissions will evolve in the
+          future. The current prediction is reaching 60 MtCO2 by 2030 and net 0
+          emissions post 2050 [12].<br /><br />
+        </p>
+        <h3 style="position: relative; top: 5em; left: 5em">C. Conclusions</h3>
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;Climate change has resulted in significant temperature
+          increases globally, including Romania, with an average temperature
+          rise of approximately 1.5 degrees Celsius over the past 30 years. This
+          increasing trend is expected to continue beyond 2020.<br /><br />
+          &emsp;&emsp;The increase in temperatures has not been evenly
+          distributed across Romania, with the southern regions experiencing
+          higher average temperatures compared to the mountainous central
+          regions. Precipitations have shown a slight increase over the years,
+          although they remain lower than the average precipitation levels in
+          the other studied countries.<br /><br />
+          &emsp;&emsp;Romania has achieved a notable reduction in CO2 emissions
+          over the past 30 years with emissions decreasing from 200 MtCO2 in
+          1990 to around 100 MtCO2 in 2020. This reduction is in contrast to the
+          increasing emissions observed in the other studied countries.<br /><br />
+          &emsp;&emsp;While this research provides valuable insights into the
+          relationship between economic factors and climate change, it is
+          important to acknowledge several limitations. The data on which this
+          study relied on may be subject to measurement errors or
+          inconsistencies. Besides, the analysis focused on a small set of
+          economic indicators and did not account for all possible variables
+          that could influence climate change. Another limitation is
+          establishing causality between economic factors and climate change,
+          which is challenging.<br /><br />
+          &emsp;&emsp;Despite the mentioned limitations, this research yielded
+          significant results, similar to results obtained by related work in
+          the field of climate change for Romania. The findings of this study
+          could be further used to promote significant policies for addressing
+          the negative effects of economic factors on climate change.
+          Policymakers should consider implementing policies to promote
+          sustainable practices and using renewable energy sources. Going
+          forward, towards the zero emissions target, incorporating this type of
+          insights into policy development should become a priority not only for
+          Romania, but for the whole world.<br /><br />
+          &emsp;&emsp;In conclusion, this research highlights the intricate
+          relationship between economic factors and climate change. The findings
+          underscore the need for proactive policy measures that promote
+          sustainable economic practices and mitigate the negative impact of
+          economic activities on the environment.<br /><br />
+        </p>
+      </section>
+      <!--Concluzii end-->
+
+      <!--Referinte start-->
+      <section>
+        <h2 style="position: relative; top: 5em; left: 5em">V. References</h2>
+        <br />
+        <p style="position: relative; top: 5em">
+          &emsp;&emsp;[1] IPCC, Climate change widespread, rapid, and intensi-
+          fying,
+          <a href="https://www.ipcc.ch/2021/08/09/ar6-wg1-20210809-pr/">URL</a
+          ><br />
+          &emsp;&emsp;[2] Climate Change Knowledge Portal, World Bank Group,
+          Temperature and precipitations CRU dataset,
+          <a
+            href="https://climateknowledgeportal.worldbank.org/download-data(1900-2022)"
+            >URL</a
+          ><br />
+          &emsp;&emsp;[3] Global Carbon Atlas <br />
+          &emsp;&emsp;[4] Friedlingstein, P., O’Sullivan, M., Jones, M.W.,
+          Andrew, R.M., Gregor, L. et al. (2022): Global Carbon Budget 2022,
+          Earth System Science Data. Available at: Friedlingstein et al.,
+          2022.<br />
+          &emsp;&emsp;[5] Andrew, R.M. and Peters, G.P. (2022): The Global
+          Carbon Project’s fossil CO2 emissions dataset. October, 17, 2022.
+          Available at: Andrew and Peters, 2022.<br />
+          &emsp;&emsp;[6] Peters, G.P., Minx, J.C., Weber, C.L., and O.
+          Edenhofer (2011), Growth in emission transfers via international trade
+          from 1990 to 2008. Proceedings of the National Academy of Sciences
+          (PNAS), 108(21), 8903-8908, Available at: Peters et al., 2011.<br />
+          &emsp;&emsp;[7] Burned Areas,
+          <a href="https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads"
+            >URL</a
+          ><br />
+          &emsp;&emsp;[8] MODIS Sensors, NASA,
+          <a href="https://www.earthdata.nasa.gov/sensors/modis">URL</a><br />
+          &emsp;&emsp;[9] Deforestation dataset 1990 - 2020, World Bank,
+          <a href="https://data.worldbank.org/indicator/AG.LND.FRST.ZS">URL</a
+          ><br />
+          &emsp;&emsp;[10] Population dataset 1990 - 2020, World Bank,
+          <a href="https://data.worldbank.org/indicator/SP.POP.TOTL">URL</a
+          ><br />
+          &emsp;&emsp;[11] Elena Mateescu, OBSERVED CHANGES AND TRENDS ON
+          CLIMATE CONDITIONS IN ROMANIA, National Meteorological Administration
+          of Romania, DISASTER RISK MANAGEMENT KNOWLEDGE CENTRE 4th Annual
+          Scientific Seminar ”Acting today, protecting tomorrow” Bucharest, 17 -
+          18 October 2019,
+          <a
+            href="https://drmkc.jrc.ec.europa.eu/Portals/0/Partnerships/Seminars/4_Scientific_Seminar_DRMKC/PDF/Session_C/RO_NMA_DRMKC_18_October_Bucharest.pdf"
+            >URL</a
+          ><br />
+          &emsp;&emsp;[12] Moiceanu, G.; Dinca, M.N. Climate Change-Greenhouse
+          Gas Emis- sions Analysis and Forecast in Romania. Sustainability 2021,
+          13, 12186.
+          <a href="https://doi.org/10.3390/su132112186">URL</a><br />
+        </p>
+      </section>
+      <!--Referinte end-->
+    </div>
   </body>
 </html>
